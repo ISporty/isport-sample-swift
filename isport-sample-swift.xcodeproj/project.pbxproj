@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		974D8FB1BEF4704CBE07F7A9 /* Pods_isport_sample_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE51767A4E6CF30EA200BA1 /* Pods_isport_sample_swift.framework */; };
 		DBAF72B12487A7B0006186D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF72B02487A7B0006186D8 /* AppDelegate.swift */; };
 		DBAF72B32487A7B0006186D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF72B22487A7B0006186D8 /* SceneDelegate.swift */; };
 		DBAF72B52487A7B0006186D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF72B42487A7B0006186D8 /* ViewController.swift */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		2B39CEA02232DCA4DBCDDEC1 /* Pods-isport-sample-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isport-sample-swift.debug.xcconfig"; path = "Target Support Files/Pods-isport-sample-swift/Pods-isport-sample-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		A232DCDDD514252D25C9A0E2 /* Pods-isport-sample-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isport-sample-swift.release.xcconfig"; path = "Target Support Files/Pods-isport-sample-swift/Pods-isport-sample-swift.release.xcconfig"; sourceTree = "<group>"; };
-		DAE51767A4E6CF30EA200BA1 /* Pods_isport_sample_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_isport_sample_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAF72AD2487A7B0006186D8 /* isport-sample-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "isport-sample-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAF72B02487A7B0006186D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBAF72B22487A7B0006186D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +33,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				974D8FB1BEF4704CBE07F7A9 /* Pods_isport_sample_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +83,6 @@
 		DE9D19B97AE99B523294B5AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DAE51767A4E6CF30EA200BA1 /* Pods_isport_sample_swift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
