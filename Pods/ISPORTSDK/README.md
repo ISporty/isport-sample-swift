@@ -10,7 +10,7 @@ $ pod 'ISPORTSDK', 'X.X.X'
 where X.X.X is your preferred version.
 
 ```
-Latest released version to to CocoaPods is 1.0.3
+Latest released version to to CocoaPods is 1.0.4
 ```
 
 <b>Usage</b>
