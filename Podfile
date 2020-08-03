@@ -6,5 +6,5 @@ target 'isport-sample-swift' do
   use_frameworks!
 
   # Pods for isport-sample-swift
-  pod 'ISPORTSDK', '1.0.5'
+  pod 'ISPORTSDK', '1.2.2'
 end

@@ -28,11 +28,22 @@ class ViewController: UIViewController {
 
 
         ISPORTSDK.onUserLogin = {
-
+            
         }
-
-        ISPORTSDK.onUserPurchase = {
-
+        
+        ISPORTSDK.onUserPurchase = { (packageId) in
+            print("====onUserPurchase: \(packageId)")
+            
+        }
+        
+        //Call when Purchase success
+        ISPORTSDK.onUserPurchaseSuccess()
+        
+        //Call when Purchase failed
+        ISPORTSDK.onUserPurchaseFailed()
+        
+        ISPORTSDK.onUserStartLiveDetail = { (channelId) in
+            print("====onUserStartLiveDetail: \(channelId)")
         }
 
         ISPORTSDK.addISportView(container: view, frame: view.frame, data: data)
